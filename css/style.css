@@ -1,0 +1,210 @@
+@charset 'utf-8';
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+header{
+    height: 78px;
+}
+.wrap{
+    width: 980px;
+    margin: 0 auto;
+    position: relative;
+}
+.gnb li{
+    float:left;
+    margin-right: 20px;
+    background-image: url(../images/line.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 20px;
+}
+.gnb li:last-child{
+    background-image: none;
+}
+.gnb{
+    position:absolute;
+    right: 0;
+    top: 30px;
+}
+.slider a{
+    display: block;
+    height: 600px;
+    background-image: url(../images/slider1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.information h3{
+    color: #b3917c;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.information{
+    width: 980px;
+    /* header와 너비를 같게 해야하나? */
+    /* height: 00px; */
+    margin: 0 auto;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.information img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 14px;
+}
+.information li{
+    width: 326px;
+    height: 220px;
+    float: left;
+}
+.information li:last-child{
+    margin-right: 0;
+}
+.information ul:after{
+    display: block;
+    clear: both;
+    content: '';
+}
+.information a{
+    font-size: 13px;
+}
+.information b{
+    font-size: 18px;
+}
+.gallery{
+    background-image: url(../images/main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gallery h3{
+    font-weight: normal;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.galbox{
+    float: left;
+}
+.con::after{
+    display: block;
+    clear: both;
+    content: '';
+}
+.left{
+    width: 470px;
+    height: 270px;
+    margin-right: 10px;
+    background-color: gold;
+}
+.right{
+    width: 485px;
+}
+
+.galbox a{
+    display: block;
+    width: 157px;
+    height: 130px;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.galbox img{
+    width: 100%;
+    height: 100%;
+}
+.right::after{
+    display: block;
+    clear: both;
+    content: '';
+}
+.galbox a:nth-child(3){
+    margin-right: 0;
+}
+.galbox a:nth-child(6){
+    margin-right: 0;
+}
+.galbox a:nth-child(4){
+    margin-bottom: 0;
+}
+.galbox a:nth-child(5){
+    margin-bottom: 0;
+}
+.galbox a:nth-child(6){
+    margin-bottom: 0;
+}
+footer h3{
+    color: #b3917c;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.yellow{
+    color: yellow;
+    font-size: 16px;
+    font-weight: bold;
+}
+.click{
+    color: white;
+    font-size: 16px;
+}
+.time{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.address{
+    color:#ababab;
+    font-size: 12px;
+}
+.boxbox{
+    width: 326px;
+    float: left;
+}
+footer .wrap:after{
+    display: block;
+    clear: both;
+    content: '';
+}
+footer{
+    background-color:#171717;
+}
+.news{
+    color: #ababab;
+    font-size: 12px;
+    line-height: 20px;
+}
+.news li{
+    width: 220px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.news li::before{
+    content:'· ';
+}
+
+.news li:hover{
+    text-decoration: underline;
+}
+.sns li{
+    float: left;
+    margin-right: 15px;
+}
+.sns::after{
+    display: block;
+    clear: both;
+    content: '';
+}
